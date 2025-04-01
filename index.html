@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Habit Tracker 📊</h1>
+
+        <div class="habit-form">
+            <input type="text" id="habit-name" placeholder="Enter a new habit...">
+            <button id="add-habit">Add Habit</button>
+        </div>
+
+        <div class="habits-list">
+            <h2>Your Habits</h2>
+            <ul id="habit-items"></ul>
+        </div>
+
+        <div class="progress-chart">
+            <h2>Progress Overview</h2>
+            <canvas id="habitChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
